@@ -102,10 +102,10 @@ const ListValues = (props) => {
             {
                 list_monsters.map((monster) =>
                     <tr key={monster.id}>
-                        <td>{monster.id}</td>
-                        <td>{monster.name}</td>
-                        <td>{monster.username}</td>
-                        <td>{monster.email}</td>
+                        <td title="Id">{monster.id}</td>
+                        <td title="Name">{monster.name}</td>
+                        <td title="Username">{monster.username}</td>
+                        <td title="Email">{monster.email}</td>
                     </tr>
                 )
             }

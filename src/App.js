@@ -50,16 +50,22 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <form action="" id='search-rolodex-form' className='col-md-6 mx-auto my-5' onSubmit={this.onSearchSubmit}>
-          <div className="form-group mx-5 row">
-            <input type="text" name="search" id="search-rolodex" className="col form-control" placeholder='Search people...' onChange={this.onSearchChange} autoComplete='off' />
-            <button id='search-rolodex-button' type='button' className='col-3 btn btn-outline-primary mx-2' onClick={this.onSearchClick}>
-              <i className="bi bi-search me-2"></i>
-              <span>Search</span>
-            </button>
-          </div>
-        </form>
-        <div className='px-2'>
+        <div class="container px-4 mt-3 mb-2">
+          <form action="" id='search-rolodex-form' className='row gx-3 gy-2' onSubmit={this.onSearchSubmit}>
+            <div className="col-md">
+              <input type="text" name="search" id="search-rolodex" className="form-control" placeholder='Search people...' onChange={this.onSearchChange} autoComplete='off' />
+            </div>
+
+            <div className="col-md-3">
+              <button id='search-rolodex-button' type='button' className='btn btn-outline-primary form-control' onClick={this.onSearchClick}>
+                <i className="bi bi-search me-2"></i>
+                <span>Search</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div id='list-values-div' className='row px-5'>
           <ListValues list={this.state.people} value={this.state.query} />
         </div>
       </div>

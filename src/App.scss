@@ -71,6 +71,43 @@ $primary : #dc3545;
   background-color: rgba($primary, $table-hover-bg-factor);
 }
 
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  #list-values-div {
+    padding: 1.5rem !important;
+  }
+
+  #list-table-header {
+    display: none;
+  }
+
+  #list-table tbody,
+  #list-table tr,
+  #list-table td {
+    display: block;
+  }
+
+  #list-table tr {
+    margin: 1.5rem 0rem;
+    border-radius: 10px;
+    border: 2px solid $input-btn-focus-color;
+    box-sizing: border-box;
+  }
+
+  #list-table td {
+    text-align: right;
+    position: relative;
+  }
+
+  #list-table td::before {
+    content: attr(title);
+    position: absolute;
+    left: 5px;
+    font-weight: 400;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
