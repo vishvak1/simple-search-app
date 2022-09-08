@@ -9,6 +9,10 @@
 
 ---
 
+### [Live Application url](https://vishvak1.github.io/simple-search-app/)
+
+---
+
 ### Cloning and Running the Application in local
 
 Clone the project into your local machine anywhere you want to.
