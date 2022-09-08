@@ -33,4 +33,14 @@ npm start
 The Application Runs on **localhost:3000**
 
 ---
+
+### Application Demo
+
 [React search app.webm](https://user-images.githubusercontent.com/17898599/189127271-ada36794-48b7-479e-ac7a-96966310b815.webm)
+
+---
+
+### Responsiveness Demo
+
+[React search app - UI Responsive.webm](https://user-images.githubusercontent.com/17898599/189202976-7e5d0b61-0989-49d3-8f7c-7947c9cb5323.webm)
+
