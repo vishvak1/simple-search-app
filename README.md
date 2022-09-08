@@ -9,6 +9,10 @@
 
 ---
 
+### [Live Application url](https://vishvak1.github.io/simple-search-app/)
+
+---
+
 ### Cloning and Running the Application in local
 
 Clone the project into your local machine anywhere you want to.
@@ -29,3 +33,4 @@ npm start
 The Application Runs on **localhost:3000**
 
 ---
+[React search app.webm](https://user-images.githubusercontent.com/17898599/189127271-ada36794-48b7-479e-ac7a-96966310b815.webm)
